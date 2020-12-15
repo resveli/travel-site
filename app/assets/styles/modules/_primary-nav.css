@@ -31,6 +31,13 @@
     font-weight: 300;
     display: block;
     padding: 12px 0;
+
+    @mixin atMedium {
+      &.is-current-link{
+        color: #fabb69;
+      }
+    }
+
   }
 
 }
